@@ -35,8 +35,8 @@ export default function Modal({ open, setOpen, title, details }: props) {
               leaveFrom="opacity-100 translate-y-0 sm:scale-100"
               leaveTo="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
             >
-              <Dialog.Panel className="relative transform z-[1000] overflow-y-auto rounded-md  pb-4 shadow-xl transition-all w-full px-[80px] sm:px-6 sm:max-w-[620px]">
-                <div className=" relative px-[50px] darkbg pb-8 rounded-[5px]  flex flex-col justify-center py-4 border border-themepurple">
+              <Dialog.Panel className="relative transform z-[1000] overflow-y-auto rounded-md  pb-4 shadow-xl transition-all w-full md:px-[80px] sm:px-6 sm:max-w-[620px]">
+                <div className=" relative px-6 md:px-[50px] darkbg pb-8 rounded-[5px]  flex flex-col justify-center py-4 border border-themepurple">
                   <Image
                     src="/images/purplestar.png"
                     alt="Sample Image"

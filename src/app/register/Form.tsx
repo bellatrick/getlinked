@@ -89,6 +89,9 @@ const Form = () => {
           privacy_poclicy_accepted: false,
         });
       } else {
+        const errorData = await response.json();
+        const errorMessages = Object.values(errorData).flat();
+        toast.error(`${errorMessages}`);
         console.error("Failed to post registration data.");
       }
     } catch (error) {
