@@ -40,7 +40,7 @@ export const clash_display = localFont({
         style: 'light',
       },
       {
-        path: './fonts/ClashDisplay-light.woff2',
+        path: './fonts/ClashDisplay-Light.woff2',
         style: 'light',
       },
     ],
