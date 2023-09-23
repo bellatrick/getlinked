@@ -81,6 +81,13 @@ const Form = () => {
       setLoading(false);
       if (response.ok) {
         setOpenModal(true);
+        setRegisterDetails({
+          email: "",
+          phone_number: "",
+          team_name: "",
+          project_topic: "",
+          privacy_poclicy_accepted: false,
+        });
       } else {
         console.error("Failed to post registration data.");
       }

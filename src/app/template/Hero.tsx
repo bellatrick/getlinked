@@ -1,9 +1,10 @@
-"use client"
+"use client";
 import React from "react";
 import Button from "../components/Button";
 import { clash_display, montserrat, unica_one } from "../fonts";
 import Image from "next/image";
 import Blur from "../components/Blur";
+import Timer from "../components/Timer";
 
 const Hero = () => {
   return (
@@ -96,13 +97,7 @@ const Hero = () => {
               <br /> stand a chance to win a Big prize
             </p>
             <Button text="Register" />
-            <p
-              className={`${unica_one.className} font-[400] text-[64px] mt-[77px]`}
-            >
-              00<span className="text-[14px] ">H</span> 00
-              <span className="text-[14px] ">M</span> 00
-              <span className="text-[14px] ">S</span>
-            </p>
+            <Timer />
             <div className="mt-[20px] xl:hidden w-full flex justify-center">
               <Image
                 src="/images/mobilehero.png"

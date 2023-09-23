@@ -21,14 +21,14 @@ const Rules = () => {
               alt="Sample Image"
               width={20}
               height={20}
-              className="absolute object-contain w-[14px]  lg:w-[20px] left-[250px] top-[-40px] lg:top-[-20px]"
+              className="absolute animate-blink object-contain w-[14px]  lg:w-[20px] left-[250px] top-[-40px] lg:top-[-20px]"
             />
             <Image
               src="/images/white_star.png"
               alt="Sample Image"
               width={20}
               height={20}
-              className="absolute object-contain w-[14px]  lg:w-[20px] right-[-30px]  lg:bottom-[-30px]"
+              className="absolute animate-blink object-contain w-[14px]  lg:w-[20px] right-[-30px]  lg:bottom-[-30px]"
             />
             <h5
               className={`${clash_display.className} text-[20px] md:text-[32px] font-bold`}
