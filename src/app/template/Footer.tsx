@@ -15,7 +15,7 @@ const Footer = () => {
       <div className="inner-wrapper px-[35px] md:px-[100px]">
         <div className="flex flex-col md:flex-row justify-between items-start">
           <div className="lg:w-[38%]">
-            <h5 className={`${clash_display.className} text-[30px] font-bold`}>
+            <h5 className={`${clash_display.className} text-[20px] md:text-[30px] font-bold`}>
               get <span className="text-themepurple">linked</span>
             </h5>
             <p className="paragraph mb-[74px]">
