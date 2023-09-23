@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+.text-gradient:hover,
+.tgradient {
+  background: linear-gradient(to right, #ff26b9, #903aff);
+  -webkit-background-clip: text; /* For Webkit-based browsers like Chrome and Safari */
+  background-clip: text;
+  color: transparent;
+}
+.shadow {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.border-gradient:hover,
+.bgradient {
+  border-image: linear-gradient(to right, #ff26b9, #903aff) 1;
+  border-image-slice: 3;
+  border-image-width: 2px;
+  border-color: linear-gradient(to right, #ff26b9, #903aff);
+  border-radius: 4px;
+}
+body {
+  color: rgb(var(--foreground-rgb));
+  scroll-behavior: smooth;
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+.darkbg,.darkbackdrop {
+  background-color: rgba(217, 217, 217, 0.03);
+}
+@media (max-width: 1000px) {
+ .darkbackdrop{
+  background-color: transparent;
+ }
+}
+.paragraph {
+  @apply text-white leading-[23.96px] text-[12px] md:text-[14px];
+}
+.subheading {
+  @apply text-[24px] text-themepurple font-bold;
+}
+.top-wrapper {
+  @apply border-t pb-[40px] border-[#FFFFFF2E] h-fit mx-auto text-white px-[20px] lg:px-0;
+}
+.inner-wrapper {
+  @apply max-w-screen-xl flex items-center flex-col justify-center w-full mx-auto mt-[80px];
+}
+.theme-flex-reverse {
+  @apply flex flex-col lg:flex-row-reverse w-full items-center justify-center lg:items-start gap-[10px] lg:gap-[60px];
+}
+.theme-flex {
+  @apply flex flex-col lg:flex-row w-full items-center justify-center lg:items-start gap-[10px];
+}
+.label{
+  @apply text-[14px] pb-[11px] font-normal;
+}
