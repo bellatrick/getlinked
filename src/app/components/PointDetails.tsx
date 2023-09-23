@@ -31,14 +31,14 @@ const PointDetails = ({ details }: props) => {
         </div>
       </div>
 
-      <div className="grid grid-cols-3 mt-[40px] w-full md:hidden ">
-        <div className="row-start-1 px-[50px] sm:px-[100px] flex flex-col items-center gap-1 self-stretch row-end-3">
+      <div className="grid grid-cols-5 mt-[40px] w-full md:hidden ">
+        <div className="row-start-1 px-[15px] sm:px-[100px] flex flex-col items-center gap-1 self-stretch row-end-3">
           <div className="bg-themepurple h-[calc(100%-29px)] w-[2px]"></div>
           <div className="bg-themepurple text-[12px] font-bold flex justify-center items-center h-[22px] w-[22px] rounded-full">
             {details.number}
           </div>
         </div>
-        <div className="col-span-2 row-start-1 row-end-3">
+        <div className="col-span-4 row-start-1 row-end-3">
           <p className="text-[12px] md:text-[24px] text-themepurple font-bold ">
             {left.title}
           </p>

@@ -79,7 +79,7 @@ const Privacy = () => {
                         alt="Sample Image"
                         width={30}
                         height={30}
-                        className=" object-cover mt-[10px] -[30px] md:w-[25px] "
+                        className=" object-cover mt-[10px] w-[36px] md:w-[30px] "
                       />{" "}
                     </div>
                     <p className="text-[14px] leading-[30px]">{text}</p>

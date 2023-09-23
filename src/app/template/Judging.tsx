@@ -22,7 +22,7 @@ const Judging = () => {
             />{" "}
           </div>
           <div className="lg:w-[44%] relative px-4 mx-auto lg:text-start text-center w-[80%] md:mt-1">
-          <div className="absolute  bottom-[200px] right-[295px]">
+            <div className="absolute  bottom-[200px] right-[295px]">
               <Blur opacity={"opacity-30"} />
             </div>
             <h5
