@@ -21,8 +21,8 @@ const Partners = () => {
           </p>
         </div>
 
-        <div className="max-w-[1255px] darkbg py-[50px] lg:py-[144px] px-[60px] lg:px-[100px] xl:px-[200px] border border-themepurple">
-          <div className="relative flex justify-center gap-[30px] lg:gap-[40px]  items-center">
+        <div className="max-w-[1255px] darkbg py-[50px] lg:py-[144px] px-[30px] lg:px-[100px] xl:px-[200px] border border-themepurple">
+          <div className="relative flex justify-center gap-[20px] lg:gap-[40px]  items-center">
             <Image
               src="/images/purplestar.png"
               alt="Sample Image"
@@ -76,7 +76,7 @@ const Partners = () => {
             <div className="lg:h-[4px] h-[2px] w-full lg:w-[180px] bg-themepurple" />
             <div className="lg:h-[4px] h-[2px] w-full lg:w-[200px] bg-themepurple" />
           </div>
-          <div className="flex justify-center gap-[30px] lg:gap-[40px]  items-center">
+          <div className="flex justify-center gap-[20px] lg:gap-[40px]  items-center">
             <Image
               src="/images/partner6.png"
               alt="Sample Image"
