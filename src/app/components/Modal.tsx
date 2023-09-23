@@ -4,7 +4,7 @@ import Button from "./Button";
 import Image from "next/image";
 type props = {
   open: boolean;
-  setOpen:()=>void;
+  setOpen: () => void;
   title: string;
   details: string;
 };
@@ -70,10 +70,20 @@ export default function Modal({ open, setOpen, title, details }: props) {
                   <p className="md:text-[22px] text-[16px] font-[600] text-center text-white">
                     {title}
                   </p>
-                  <p className="my-2 text-[12px] md:text-[14px] text-center">
-                    {details}
-                  </p>
-                  <div className="my-6" onClick={ setOpen}>
+                  <div className="flex gap-2 items-center my-4">
+                  
+                    <p className=" text-[12px] md:text-[14px] text-center">
+                      {details}
+                    </p>
+                    <Image
+                      src="/images/wink.png"
+                      alt="Sample Image"
+                      width={20}
+                      height={20}
+                      className="  object-contain w-[10px]  lg:w-[18px]  "
+                    />
+                  </div>
+                  <div className="my-6" onClick={setOpen}>
                     <Button className="w-full" text="Back" />
                   </div>
                 </div>
