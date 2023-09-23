@@ -17,7 +17,7 @@ const page = () => {
       <Header form={true} />
       <div className="text-white px-1 md:px-[80px] mt-16 pb-4 md:pb-16  lg:mt-[128px] ">
         <Link href={"/"}>
-          <div className="flex transition-all cursor-pointer px-16 self-start justify-start">
+          <div className="flex transition-all cursor-pointer px-8 self-start justify-start">
             <Image
               src="/images/back.png"
               alt="Sample Image"
@@ -27,7 +27,7 @@ const page = () => {
             />
           </div>
         </Link>
-        <div className="max-w-screen-xl flex items-center flex-col justify-center w-full mx-auto mt-4">
+        <div className=" flex items-center flex-col justify-center w-full mx-auto mt-4">
           <div className="flex flex-col-reverse gap-[50px] lg:gap-[225px] lg:flex-row">
             <div className="flex flex-col gap-[17px] relative">
               <div className="absolute hidden md:block top-[120px]  md:top-[40px] left-[-325px]">
@@ -105,7 +105,7 @@ const page = () => {
                 </div>
               </div>
             </div>
-            <div className="darkbackdrop relative md:shadow rounded-[12px] w-full lg:w-[617px] py-8 md:py-[75px] px-[92px]">
+            <div className="darkbackdrop relative md:shadow rounded-[12px] w-full lg:w-[617px] py-8 md:py-[75px] px-[12px] lg:px-[92px]">
               <Image
                 src="/images/purplestar.png"
                 alt="Sample Image"

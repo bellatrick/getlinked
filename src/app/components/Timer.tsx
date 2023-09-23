@@ -68,7 +68,7 @@ const Countdown = () => {
   const animateSeconds = useAnimation(seconds);
 
   return (
-    <p className={`${unica_one.className} font-[400] text-[64px] mt-[77px]`}>
+    <p className={`${unica_one.className} font-[400] text-[48px] lg:text-[64px] mt-[40px] md:mt-[77px]`}>
       <span className="animate-topslide text-countdown">{hours}</span>
       <span className="text-[14px] ">H</span> <span>{minutes}</span>
       <span className="text-[14px] ">M</span>{" "}

@@ -16,7 +16,7 @@ const page = () => {
   return (
     <div className=" max-w-screen overflow-x-hidden bg-body pb-[70px]">
       <Header form={true} />
-      <div className="text-white px-[80px]   mt-[68px]">
+      <div className="text-white px-[30px] lg:px-[80px]   mt-[68px]">
         <div className="max-w-screen-xl flex items-center flex-col justify-center w-full mx-auto mt-4">
           <h6
             className={`${clash_display.className} text-themepurple text-left self-start  md:hidden block text-[18px] pb-8 font-bold`}

@@ -40,7 +40,7 @@ const FAQs = () => {
     <div id="faq" className="top-wrapper">
       <div className="inner-wrapper px-6 sm:px-[80px]">
         <div className="flex flex-col lg:flex-row w-full items-center justify-center lg:items-start gap-[10px] lg:gap-[60px]">
-          <div className="lg:w-[44%] px-4 mx-auto lg:text-start text-center w-[80%] md:mt-1">
+          <div className="lg:w-[44%] px-4 mx-auto lg:text-start text-center w-[86%] md:mt-1">
             <div className="relative">
               <h4
                 className={`${clash_display.className} text-[20px] md:text-[32px] font-bold`}

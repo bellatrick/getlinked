@@ -37,7 +37,7 @@ const Header = ({ form }: props) => {
     <nav
       className={`${
         form ? "" : "pb-[30px] border-b border-[#FFFFFF2E]"
-      } z-[8] bg-body px-[80px] pt-[67px] `}
+      } z-[8] bg-body px-[30px] lg:px-[80px] pt-[67px] `}
     >
       <div className="max-w-screen-xl   lg:px-0 flex flex-wrap items-center justify-between mx-auto lg:p-4">
         <div className="flex items-center">

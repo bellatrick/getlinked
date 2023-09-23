@@ -6,7 +6,7 @@ import Blur from "../components/Blur";
 
 const Judging = () => {
   return (
-    <div id="judging" className="top-wrapper px-[80px]">
+    <div id="judging" className="top-wrapper px-[20px] lg:px-[80px]">
       <div className="inner-wrapper">
         <div className="flex flex-col-reverse lg:flex-row w-full items-center justify-center lg:items-start gap-[10px] lg:gap-[60px]">
           <div className="self-center relative">
@@ -21,7 +21,7 @@ const Judging = () => {
               className=" object-contain "
             />{" "}
           </div>
-          <div className="lg:w-[44%] relative px-4 mx-auto lg:text-start text-center w-[70%] md:mt-1">
+          <div className="lg:w-[44%] relative px-4 mx-auto lg:text-start text-center w-[80%] md:mt-1">
           <div className="absolute  bottom-[200px] right-[295px]">
               <Blur opacity={"opacity-30"} />
             </div>

@@ -44,7 +44,7 @@ const Privacy = () => {
               Below are our privacy & policy, which outline a lot of goodies.
               it’s our aim to always take of our participant
             </p>
-            <div className=" relative px-[72px] mb-[40px] lg:mb-[0px] mt-[69px] py-[59px] border border-themepurple darkbg">
+            <div className=" relative px-[20px] sm:px-[72px] mb-[40px] lg:mb-[0px] mt-[69px] py-[59px] border border-themepurple darkbg">
               <Image
                 src="/images/purplestar.png"
                 alt="Sample Image"

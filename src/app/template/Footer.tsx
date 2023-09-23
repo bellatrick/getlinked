@@ -12,7 +12,7 @@ const Footer = () => {
         height={20}
         className="absolute w-[14px]  lg:w-[16px] left-[50px] top-[60px] lg:top-[120px]"
       />
-      <div className="inner-wrapper px-[100px]">
+      <div className="inner-wrapper px-[35px] md:px-[100px]">
         <div className="flex flex-col md:flex-row justify-between items-start">
           <div className="lg:w-[38%]">
             <h5 className={`${clash_display.className} text-[30px] font-bold`}>
@@ -47,8 +47,8 @@ const Footer = () => {
                   alt="Sample Image"
                   width={24}
                   height={24}
-                  className=" object-cover "
-                />{" "}
+                  className=" object-cover w-[16px] md:w-[24px] "
+                />
               </div>
               <div className="">
                 <Image
@@ -56,7 +56,7 @@ const Footer = () => {
                   alt="Sample Image"
                   width={19}
                   height={17}
-                  className=" object-cover "
+                  className=" object-cover w-[14px] md:w-[19px]"
                 />{" "}
               </div>{" "}
               <div className="">
@@ -65,7 +65,7 @@ const Footer = () => {
                   alt="Sample Image"
                   width={10}
                   height={20}
-                  className=" object-cover "
+                  className=" object-cover w-[9px] md:w-[10px]"
                 />{" "}
               </div>{" "}
               <div className="">
@@ -74,7 +74,7 @@ const Footer = () => {
                   alt="Sample Image"
                   width={24}
                   height={24}
-                  className=" object-cover "
+                  className=" object-cover w-[16px] md:w-[24px]"
                 />{" "}
               </div>
             </div>
@@ -87,7 +87,7 @@ const Footer = () => {
               height={20}
               className="absolute w-[14px]  lg:w-[16px] left-[-80px] top-[-40px] lg:top-[30px]"
             />
-                <Image
+            <Image
               src="/images/white_star.png"
               alt="Sample Image"
               width={20}

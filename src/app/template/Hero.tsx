@@ -10,7 +10,7 @@ const Hero = () => {
   return (
     <div
       id="hero"
-      className="relative h-fit w-screen-xl mx-auto text-white px-[80px]  "
+      className="relative h-fit w-screen-xl mx-auto text-white px-[20px] lg:px-[80px]  "
     >
       <Blur />
       <Image
